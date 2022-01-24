@@ -39,7 +39,7 @@ jobs:
         id: cache-composer
         uses: actions/cache@v2
         with:
-          path: backend/vender
+          path: backend/vendor
           key: composer-v1-${{ hashFiles('backend/composer.lock') }}
 
       - run: docker-compose exec -T app composer install -n --prefer-dist --no-dev
@@ -73,7 +73,6 @@ jobs:
             -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-
       - name: Push php image to ecr
         env:
           DOCKER_BUILDKIT: 1
