@@ -1,0 +1,8 @@
+{
+    "AccessKey": {
+        "UserName": "example-prod-foobar-github",
+        "AccessKeyId": "AKIA2Z5BADFZLMJGVJVR",
+        "Status": "Active",
+        "SecretAccessKey": "E848pgIwmxNuKMmgSzroTajbyizZE1iFD5q2gb3y",
+        "CreateDate": "2022-01-30T08:24:47+00:00"
+    }
