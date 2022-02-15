@@ -7,5 +7,5 @@ timeout: 10m0s
 
 plugins:
   - name: tfstate
-    congig:
+    config:
       url: s3://naonari-tfstate/example/prod/cicd/app_foobar_v1.0.0.tfstate
