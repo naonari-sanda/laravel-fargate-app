@@ -12,8 +12,7 @@
       "rollback": false
     },
     "maximumPercent": 200,
-    "minimumHealthyPercent": 100,
-    "desiredCount": 1
+    "minimumHealthyPercent": 100
   },
   "desiredCount": 1,
   "enableECSManagedTags": false,
@@ -40,7 +39,6 @@
   },
   "placementConstraints": [],
   "placementStrategy": [],
-  "platformFamily": "Linux",
   "platformVersion": "1.4.0",
   "schedulingStrategy": "REPLICA",
   "serviceRegistries": [],
