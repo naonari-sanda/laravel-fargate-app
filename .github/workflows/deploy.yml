@@ -98,7 +98,7 @@ jobs:
         uses: kayac/ecspresso@v0
         with:
           version: v1.5.3
-
+          
       - name: Register task definition
         run: ecspresso register --config config_$ENV_NAME.yaml
         working-directory: ./ecspresso
